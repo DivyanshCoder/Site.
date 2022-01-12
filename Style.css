@@ -1,0 +1,37 @@
+                        /* Tag Selectors */
+body
+{
+    background-color: red;
+}
+h1
+{
+    color: green;
+}
+img:hover
+{
+    background-color: gold;
+}
+
+                            /* Id Selectors */
+.Pizza /*Id is unique ,you can use it only once in the code.*/
+{
+    background-color: green;
+}
+.Broccoli
+{
+    background-color: blue;
+}
+.Circular
+{
+    border-radius: 100%;
+}
+
+                            /* Class Selectors */
+#heading /*Class is not unique, you can use it many time in the code.*/
+{
+    color: purple;
+}
+#Color
+{
+    size: 1000px;
+}
