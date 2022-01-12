@@ -5,23 +5,33 @@
 }*/
 body
 {
-    background-color: aqua;
+    margin: 50px auto 0 auto;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather',serif;
 }
 h1
 {
+    color:  #66BFBF;
     text-align: center;
+    font-size: 4.262rem;
+    line-height: 2;
     font-family: 'Sacramento', cursive;
 }
 h2
 {
+    color: #22577E;
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
 }
 h3
-{
+{   
     font-family: 'Montserrat', sans-serif;
+}
+p
+{
+    text-align: bold;
+    font-size: 1.262rem;
 }
 .myimg
 {
@@ -37,6 +47,17 @@ h3
     position: relative;
     padding: 100px;
 }
+.only
+{
+    color: black;
+}
+/*.profile
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}*/
 /*.middle-container
 {
     border: solid;
@@ -57,6 +78,7 @@ h3
 }*/
 .name
 {
+    color: #11999E;
     position: relative;
     top: 50px;  
 }
